@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ФИО"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Контакты" />
+
+</LinearLayout>
